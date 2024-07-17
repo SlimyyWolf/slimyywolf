@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #000000;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #bd00fc;
+  }
+p {
+  color: #bd00fc
+}
+  
+h9 {
+    font-size: large;
+    color: white
+}
+
+  input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+  
+  button {
+    
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 200ms,background 200ms;
+    background: #000000;
+    color: #ffffff;
+    box-shadow: 0 0 0 3px #bd00fc inset;
+    :hover{
+        transform: translateY(-2px);
+    }
+    
+  }
+  
+  button:hover {
+    background-color: #bd00fc;
+  }
+  
+  #message {
+    margin-top: 10px;
+    color: #333;
+  }
+  
