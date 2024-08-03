@@ -34,7 +34,7 @@
   }
   
      .hero {
-    background-image:url(dark\ slimyywolfbanner.png) ;
+    background-image:url(youtubebannercyan&pink.png) ;
     background-repeat: no-repeat;
     background-position: center;
     background-position: fixed;
@@ -53,7 +53,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    color: #c800ff;
+    color: #ffffff;
     padding: 0rem 2rem;
   }
   
@@ -69,41 +69,28 @@
   }
   
   button {
-  
     display: inline-block;
-    outline: 0;
-    cursor: pointer;
-    border-radius: 6px;
-    border: 2px solid #76006e;
-    color: #fff;
-    background-color: #76006e;
-    padding: 8px;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 2px 4px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1.5px 0px;
-    font-weight: 800;
-    font-size: 16px;
-    height: 42px;
-    :hover{
-        background: 0 0;
-        color: #ff4742;
-    }
-    
-  
-  
-    :hover{
-      
-        border-color: hsl(0, 0%, 100%);
-        box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
-    }
-    
-    }
-  
-  
-  
-  
-  button:hover {
-    background: #ffffff;
-    color: #000;
-  }
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff00ff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00ddff;
+  color: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: 5px 5px 0px #a20cb5;
+}
+
   
   .column-right {
     display: flex;
@@ -199,4 +186,5 @@
     margin-top: 60px; /* Adjust based on the height of the banner */
     padding: 20px;
   }
+  
   
